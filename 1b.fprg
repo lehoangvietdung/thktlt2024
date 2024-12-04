@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1.2"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-04 09:29:51 CH"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMDktMjU7MDg6NDQ6MjkgUE07MjUzMg=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMDktMjU7MDk6MDI6MzEgUE07MTsyNjI4"/>
+        <attribute name="edited" value="YXN1cztMQVBUT1AtNzdRTzVDQ1M7MjAyNC0xMi0wMzsxMjozMDo0OSBQTTs1OzI4ODI="/>
+        <attribute name="edited" value="dGdkZDtMQVBUT1AtTjRLREZGN1Q7MjAyNC0xMi0wNDswOToyOTo1MSBDSDsxOzI4NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vi&#234;n:l&#234; ho&#224;ng vi&#7871;t d&#361;ng&quot;" newline="True"/>
+            <output expression="&quot;MSSV:235752021610104&quot;" newline="True"/>
+            <comment text="The if Statement inside the loop will print &#13;&#10;     the correct lyric: bottles vs.&#13;&#10;                   bottle.&#13;&#10;&#13;&#10;This version uses a For Loop rather than&#13;&#10;a while Loop. it will only work in verson&#13;&#10;                 1.7 and later."/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;one bottle of beer on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp;&quot; bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

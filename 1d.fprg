@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="c&#226;u d b&#224;i 1"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-04 09:32:27 CH"/>
+        <attribute name="created" value="QWRtaW47TEFQVE9QLUlWMVIwREkzOzIwMjQtMTAtMDI7MTA6MzY6MjUgQU07Mjc4NQ=="/>
+        <attribute name="edited" value="QWRtaW47TEFQVE9QLUlWMVIwREkzOzIwMjQtMTAtMDI7MTA6NTE6MDQgQU07MTsyODg3"/>
+        <attribute name="edited" value="YXN1cztMQVBUT1AtNzdRTzVDQ1M7MjAyNC0xMi0wMzsxMjozMTo1MyBQTTs1OzI4Nzg="/>
+        <attribute name="edited" value="dGdkZDtMQVBUT1AtTjRLREZGN1Q7MjAyNC0xMi0wNDswOTozMjoyNyBDSDsxOzI4NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vi&#234;n:l&#234; ho&#224;ng vi&#7871;t d&#361;ng&quot;" newline="True"/>
+            <output expression="&quot;MSSV:235752021610104&quot;" newline="True"/>
+            <declare name="canhday" type="Real" array="False" size=""/>
+            <declare name="chieucao" type="Real" array="False" size=""/>
+            <declare name="dientich" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap chieu dai canh day&quot;" newline="True"/>
+            <input variable="canhday"/>
+            <output expression="&quot;Nhap chieu cao tam giac cua tam giac&quot;" newline="True"/>
+            <input variable="chieucao"/>
+            <assign variable="dientich" expression="chieucao*canhday*1/2"/>
+            <output expression="&quot;dientich cua tam giac la:&quot;&amp;dientich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
